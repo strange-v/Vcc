@@ -28,8 +28,8 @@ class Vcc
 {
 public:
     Vcc();
-	float getValue();
-	uint16_t getValue_mV();
+    float getValue();
+    uint16_t getValue_mV();
     float getPinVoltage(uint8_t pin);
     uint16_t getPinVoltage_mV(uint8_t pin);
     float getPinVoltage(uint8_t pin, float r1, float r2);
